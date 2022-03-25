@@ -9,16 +9,17 @@ public class Demo {
         return (a + b);
     }
 
-    public static int multipy(int a, int b){
-        return(a * b);
-
-    }
+    public static int multipy(int a, int b) { return (a * b); }
 
     public static int modulo(int a, int b) {
         return (a % b);
     }
 
     public static int plus1(int a) {
-        return ( a + 1 );
+        return (a + 1);
+    }
+
+    public static int square(int a) {
+        return (a * a);
     }
 }
