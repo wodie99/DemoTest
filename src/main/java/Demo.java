@@ -1,5 +1,6 @@
 public class Demo {
     public static void main(String[] args) {
+        System.out.println("Hallo Benutzer!");
         int zahl1 = 4;
         int zahl2 = 8;
         System.out.printf("Was ist %d summiert mit %d: %d", zahl1, zahl2, add(zahl1, zahl2));
