@@ -23,4 +23,9 @@ class DemoTest {
     void plus1() {
         assertEquals(5, Demo.plus1(4));
     }
+
+    @Test
+    void minus1() {
+        assertEquals(5, Demo.minus1(6));
+    }
 }
