@@ -17,4 +17,8 @@ public class Demo {
     public static int modulo(int a, int b) {
         return (a % b);
     }
+
+    public static int plus1(int a) {
+        return ( a + 1 );
+    }
 }

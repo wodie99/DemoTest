@@ -18,4 +18,9 @@ class DemoTest {
     void modulo() {
         assertEquals(1, Demo.modulo(10,3));
     }
+
+    @Test
+    void plus1() {
+        assertEquals(5, Demo.plus1(4));
+    }
 }
