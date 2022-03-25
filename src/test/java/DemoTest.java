@@ -28,4 +28,9 @@ class DemoTest {
     void minus1() {
         assertEquals(5, Demo.minus1(6));
     }
+
+    @Test
+    void square() {
+        assertEquals(81, Demo.square(9));
+    }
 }
