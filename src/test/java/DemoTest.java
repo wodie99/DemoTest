@@ -13,4 +13,9 @@ class DemoTest {
     void multipy() {
         assertEquals(45, Demo.multipy(15,3));
     }
+
+    @Test
+    void modulo() {
+        assertEquals(1, Demo.modulo(10,3));
+    }
 }
